@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Inicio - Tienda Virtual{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12 text-center mb-4">
+        <h1>Bienvenido a la Tienda Virtual</h1>
+        <p class="text-muted">Encuentra los mejores productos al mejor precio</p>
+    </div>
+</div>
+
+<!-- Productos destacados en grid -->
+<div class="row">
+    {% set productos_validos = productos | selectattr('id', 'defined') | list %}
+    {% if productos_validos|length == 0 %}
+        <div class="col-12 text-center">
+            <p class="text-danger">No hay productos disponibles o la API no está devolviendo datos válidos.</p>
+        </div>
+    {% else %}
+        {% for producto in productos_validos %}
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <img src="{{ producto.imagen_url }}" class="card-img-top" alt="{{ producto.nombre }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ producto.nombre }}</h5>
+                    <p class="card-text">{{ producto.descripcion }}</p>
+                    <p class="fw-bold text-primary">${{ producto.precio }}</p>
+                    <a href="{{ url_for('add_to_cart', producto_id=producto.id) }}" class="btn btn-success">
+                        Añadir al carrito
+                    </a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    {% endif %}
+</div>
+{% endblock %}

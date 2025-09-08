@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block title %}Productos - Tienda Virtual{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-md-6">
+    <form class="d-flex" method="GET" action="{{ url_for('products') }}">
+            <input class="form-control me-2" type="search" name="q" placeholder="Buscar producto..." value="{{ request.args.get('q', '') }}">
+            <button class="btn btn-outline-primary" type="submit">Buscar</button>
+        </form>
+    </div>
+    <div class="col-md-6 text-end">
+        <select class="form-select w-auto d-inline" name="categoria" onchange="this.form.submit()">
+            <option value="">Todas las categorías</option>
+            {% for categoria in categorias %}
+                <option value="{{ categoria }}" {% if request.args.get('categoria') == categoria %}selected{% endif %}>
+                    {{ categoria }}
+                </option>
+            {% endfor %}
+        </select>
+    </div>
+</div>
+
+<div class="row">
+    {% if productos %}
+        {% for producto in productos %}
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="{{ producto.imagen_url }}" class="card-img-top" alt="{{ producto.nombre }}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ producto.nombre }}</h5>
+                        <p class="card-text">{{ producto.descripcion[:100] if producto.descripcion is defined else 'Sin descripción' }}...</p>
+                        <p class="fw-bold text-primary">${{ "%.2f"|format(producto.precio) if producto.precio is defined else '0.00' }}</p>
+                        {% if producto.id is defined %}
+                            <a href="{{ url_for('products', id=producto.id) }}" class="btn btn-sm btn-outline-primary">Ver Detalle</a>
+                            <a href="{{ url_for('add_to_cart', producto_id=producto.id) }}" class="btn btn-sm btn-success">Agregar al carrito</a>
+                        {% else %}
+                            <span class="text-muted">Sin ID</span>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <div class="col-12">
+            <div class="alert alert-info text-center">
+                No se encontraron productos.
+            </div>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}
